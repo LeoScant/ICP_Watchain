@@ -1,21 +1,8 @@
 {
   "canisters": {
-    "Watchain_backend": {
-      "main": "src/Watchain_backend/main.mo",
+    "Watchain": {
+      "main": "src/Main.mo",
       "type": "motoko"
-    },
-    "Watchain_frontend": {
-      "dependencies": [
-        "Watchain_backend"
-      ],
-      "frontend": {
-        "entrypoint": "src/Watchain_frontend/src/index.html"
-      },
-      "source": [
-        "src/Watchain_frontend/assets",
-        "dist/Watchain_frontend/"
-      ],
-      "type": "assets"
     }
   },
   "defaults": {

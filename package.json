@@ -1,7 +1,7 @@
 {
-  "name": "Watchain_frontend",
+  "name": "WatchainCertificate",
   "version": "0.2.0",
-  "description": "Internet Computer starter application",
+  "description": "Watchain Certificate Application",
   "keywords": [
     "Internet Computer",
     "Motoko",
@@ -14,7 +14,7 @@
     "start": "webpack serve --mode development --env development",
     "deploy:local": "dfx deploy --network=local",
     "deploy:ic": "dfx deploy --network=ic",
-    "generate": "dfx generate Watchain_backend"
+    "generate": "dfx generate Watchain"
   },
   "dependencies": {
     "@dfinity/agent": "^0.15.6",
